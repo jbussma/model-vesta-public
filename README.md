@@ -99,7 +99,7 @@ Uit een regressie over 1.695 gepubliceerde buurten ($\ge 50$ woningen, geen best
 
 Zodra `R_StadV > 0` zet het model de transportkosten (`K06`) voor de hele buurt op `0`, ongeacht hoe klein het bestaande warmtenet is. Het model veronderstelt daarmee dat de bestaande hoofdtransportleiding zonder extra kosten alle nieuwe aansluitingen in de buurt kan accommoderen.
 
-In buurten met een bestaand warmtenet (558 buurten; 0,83 miljoen woningen) wordt een warmtenetstrategie hierdoor mogelijk aanzienlijk te goedkoop gerekend. In de praktijk is de vrije capaciteit van bestaande hoofdtransportleidingen meestal beperkt en moeten bij uitbreiding wel degelijk transportkosten worden gemaakt. Ter vergelijking: in buurten zonder bestaand net bedragen de transportkosten bij `S2d` in de mediaan ca. € 130 per woningequivalent per jaar, en in de regio Leiden ca. € 220.
+In buurten met een bestaand warmtenet (558 buurten; 0,83 miljoen woningen) wordt een warmtenetstrategie hierdoor mogelijk aanzienlijk te goedkoop gerekend. In de praktijk is de vrije capaciteit van bestaande hoofdtransportleidingen vaak beperkt en moeten bij uitbreiding wel degelijk transportkosten worden gemaakt. Ter vergelijking: in buurten zonder bestaand net bedragen de transportkosten bij `S2d` in de mediaan ca. € 130 per woningequivalent per jaar.
 
 **Oplossing:** Reken transportkosten naar rato van de uitbreiding van het aantal aansluitingen en de beschikbare restcapaciteit, door de factor R_AardG toe te passen op `K06`.
 
