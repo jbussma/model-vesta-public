@@ -7,7 +7,7 @@ Datum: 24 november 2026 · Auteur: Jeroen Bussmann – Regionale Expertgroep Duu
 
 Dit document bevat de bevindingen van een onafhankelijke codebeoordeling van Vesta MAIS, zoals gebruikt voor de *Actualisatie Startanalyse aardgasvrije buurten 2026* (ASA2026). De beoordeling bevat 4 grote issues (categorie A) en 7 kleinere issues (categorie B). Omdat het tabblad *Issues* op de GitHub-repository van het PBL is uitgeschakeld, zijn de bevindingen hier openbaar vastgelegd.
 
-De review is uitgevoerd door de Regionale Expertgroep Duurzaam Energiesysteem (REDE), een onafhankelijke expertgroep van bewoners in de regio Holland Rijnland. Wij leveren gevraagd en ongevraagd een bijdrage aan de besluitvorming over de warmtetransitie, onder meer door second opinions te maken op beleidsbepalende rapporten. De aanleiding voor deze review was een sterk afwijkende uitkomst voor buurten met een bestaand stadswarmtenet in Leiden en Leiderdorp. Daarna is de volledige broncode nagelopen.
+De review is uitgevoerd door de Regionale Expertgroep Duurzaam Energiesysteem (REDE), een onafhankelijke expertgroep van bewoners in de regio Holland Rijnland. De aanleiding voor deze review was een sterk afwijkende uitkomst voor buurten met een bestaand stadswarmtenet in Leiden en Leiderdorp. Daarna is de volledige broncode nagelopen.
 
 ## Samenvatting
 
