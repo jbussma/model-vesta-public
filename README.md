@@ -69,7 +69,7 @@ Kostenpost `K13` (inkoop elektriciteit) bevat deze regel met een plusteken:
 + R_AardG * StateNaAllocatie/totaal/jaarlijks/ge/Om_ge_comfort //jaarlijkse comfortwinst nieuwe warmtenetten
 ```
 
-`Om_Comfort` is in de code gedefinieerd als *"jaarlijkse maatschappelijke opbrengsten in de vorm van comfort door koudelevering"* (geleverde koude $\times$ eindgebruikersprijs elektriciteit gedeeld door 1,00 voor woningen en 1,56 voor utiliteit). Een maatschappelijke opbrengst wordt hier dus bij een kostenpost opgeteld. In de Startanalyse 2019 stond nog een minteken; sinds een herindeling in februari 2020 staat er een plus.
+`Om_Comfort` is in de code gedefinieerd als *"jaarlijkse maatschappelijke opbrengsten in de vorm van comfort door koudelevering"* (geleverde koude $\times$ eindgebruikersprijs elektriciteit gedeeld door 1,00 voor woningen en 1,56 voor utiliteit). Een maatschappelijke opbrengst wordt hier dus bij een kostenpost opgeteld. In de Startanalyse 2019 stond nog een minteken; sinds februari 2020 staat er een plus.
 
 Uit een regressie over 1.695 gepubliceerde buurten ($\ge 50$ woningen, geen bestaand net, $< 3\%$ utiliteit) blijkt dat `K13` per GJ koude stijgt met € 61 (`s3b`) en € 57 (`s3g`) — vrijwel gelijk aan de kleinverbruiksprijs voor elektriciteit in 2030 — en € 38–42 bij `s3c`, `s3d` en `s3h`. Bij varianten zonder koude (`s3a`, `s3e`) is het effect vrijwel nul. WKO-varianten met koeling worden hierdoor € 110–225 per aangesloten woning per jaar te duur gerekend. Bovendien stelt het informatieblad *Koudevraag in de gebouwde omgeving* (PBL, maart 2025, publicatie 5840) dat koudelevering buiten de nationale kosten valt.
 
