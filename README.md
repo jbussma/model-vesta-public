@@ -18,7 +18,7 @@ Samen zorgen deze issues ervoor dat het model voor naar schatting zeker 0,75 mil
 1. **Isolatiekosten worden niet gecorrigeerd voor woningen op een bestaand warmtenet (`A1`)**  
    Bij vrijwel alle kostenposten voor nieuwe maatregelen vermenigvuldigt het model met `R_AardG` (`1 - R_StadV`), het aandeel woningen dat nog op aardgas zit. Bij de isolatiekosten (`K08`, `K19`, `K21`) ontbreekt die factor. In buurten met een bestaand net worden daardoor isolatiekosten gerekend voor álle woningen, inclusief woningen die al op het warmtenet zitten. Het gaat om 937 buurten ($\ge 50$ woningen) met in totaal 1,17 miljoen woningen, waarvan 0,43 miljoen al aangesloten. Een eerste schatting op basis van de gepubliceerde resultaten laat zien dat na correctie in circa 190 buurten (220.000 woningen) de goedkoopste strategie verschuift, meestal van een warmtenet (`S2`) naar `S3` of `S1`. Dit zijn vaak buurten die nu onterecht als 'robuust' voor een warmtenet zijn aangemerkt.
 
-2. **Meterkastkosten staan in het rapport, maar ontbreken in de uitkomsten (`A2`)**  
+2. **Kosten voor de meterkast ontbreken in de uitkomsten (`A2`)**  
    `Ki_Meterkast` wordt berekend in `GebouwOptieT.dms`, maar nooit doorgegeven aan de uiteindelijke resultaten en `K09`. Hierdoor vallen strategieën met een warmtepomp circa € 25–37 per woning per jaar te goedkoop uit ten opzichte van `S2`.
 
 3. **Koudelevering bij WKO wordt als kostenpost opgeteld in plaats van als baat (`A3`)**  
